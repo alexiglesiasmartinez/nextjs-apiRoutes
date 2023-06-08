@@ -1,0 +1,10 @@
+.option {
+  background: #0c1d40;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.option:hover {
+  transform: scale(1.08);
+}

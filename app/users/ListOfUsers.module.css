@@ -1,0 +1,17 @@
+.li {
+  list-style-type: none;
+  width: fit-content;
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  padding: 10px 25px 10px 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.li:hover {
+  transform: scale(1.03);
+}
+
+.a {
+  color: black;
+}
