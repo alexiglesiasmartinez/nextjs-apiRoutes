@@ -8,7 +8,7 @@ export default async function ContentByUserId({ params }) {
       <Link className="goBack" href={"/users"}>
         Go back
       </Link>
-      <h1>User's posts:</h1>
+      <h1>Users posts:</h1>
       <PostByUser id={id} />
     </section>
   );
