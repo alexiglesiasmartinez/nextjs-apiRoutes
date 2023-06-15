@@ -2,7 +2,9 @@ import Link from "next/link";
 import styles from "./PostByUser.module.css";
 
 async function fetchPosts() {
-  const response = await fetch("http://localhost:3000/api/posts");
+  const response = await fetch(
+    "https://nextjs-api-routes-rosy.vercel.app/api/posts"
+  );
   const data = await response.json();
   return data;
 }

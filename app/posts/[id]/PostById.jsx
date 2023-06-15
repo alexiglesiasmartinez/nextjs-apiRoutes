@@ -1,7 +1,9 @@
 import styles from "./PostById.module.css";
 
 async function fetchPost(id) {
-  const response = await fetch(`http://localhost:3000/api/posts/${id}`);
+  const response = await fetch(
+    `https://nextjs-api-routes-rosy.vercel.app/api/posts/${id}`
+  );
   const courses = await response.json();
   return courses;
 }

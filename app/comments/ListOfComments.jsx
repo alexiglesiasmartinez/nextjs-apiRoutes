@@ -2,7 +2,9 @@ import Link from "next/link";
 import styles from "./ListOfComments.module.css";
 
 async function fetchComments() {
-  const response = await fetch("http://localhost:3000/api/comments");
+  const response = await fetch(
+    "https://nextjs-api-routes-rosy.vercel.app/api/comments"
+  );
   const comments = await response.json();
   return comments;
 }

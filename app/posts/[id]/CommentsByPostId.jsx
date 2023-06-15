@@ -2,7 +2,7 @@ import styles from "./CommentsByPostId.module.css";
 
 async function fetchComments(id) {
   const response = await fetch(
-    `http://localhost:3000/api/posts/${id}/comments`
+    `https://nextjs-api-routes-rosy.vercel.app/api/posts/${id}/comments`
   );
   const comments = await response.json();
   return comments;
