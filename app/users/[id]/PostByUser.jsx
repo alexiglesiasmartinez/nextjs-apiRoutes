@@ -11,7 +11,6 @@ export default async function PostByUser({ id }) {
   const posts = await fetchPosts();
   const userPosts = posts.filter((obj) => obj.userId == id);
 
-  console.log(userPosts);
   return (
     <article>
       {userPosts.map((userPost) => (
