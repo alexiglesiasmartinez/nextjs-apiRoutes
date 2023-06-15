@@ -1,9 +1,3 @@
-/*import { authOptions } from "/utils/authOptions";
-import { getServerSession } from "next-auth";
-import { redirect } from "next/navigation";*/
-
-//import { useSession } from "next-auth/react";
-
 import Link from "next/link";
 import styles from './page.module.css';
 import React from "react";
